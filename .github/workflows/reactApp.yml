@@ -27,7 +27,7 @@ jobs:
         node-version: 12
         
     -  name: action-yarn
-       uses: comchangs/action-yarn@v2-beta
+       uses: comchangs/action-yarn@v0.1-beta
        with: 
         cmd: install
       
