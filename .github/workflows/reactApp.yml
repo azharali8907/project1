@@ -28,8 +28,7 @@ jobs:
         
     -  name: action-yarn
        uses: comchangs/action-yarn@v0.1-beta
-       with: 
-        cmd: install
+ 
       
     - name: creating build
       run: yarn build
